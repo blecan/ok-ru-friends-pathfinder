@@ -1,0 +1,17 @@
+[
+  {
+    "name": "account-1",
+    "user_id": "1234567890",
+    "proxy": "http://user:pass@127.0.0.1:8080",
+    "cookies": {
+      "AUTHCODE": "replace_with_real_authcode",
+      "JSESSIONID": "replace_with_real_jsessionid"
+    }
+  },
+  {
+    "name": "account-2",
+    "user_id": "9876543210",
+    "proxy": "socks5://user:pass@127.0.0.1:1080",
+    "cookies": "ok_cookies_alt.json"
+  }
+]
